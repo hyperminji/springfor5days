@@ -1,12 +1,11 @@
-package com.springbook.biz;
+package com.spring.biz.board;
 
 import java.util.List;
 
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-import com.spring.biz.board.BoardService;
-import com.spring.biz.board.BoardVO;
+
 
 
 public class BoardServiceClient {

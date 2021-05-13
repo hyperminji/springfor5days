@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	
-	<!--  
+	
 	<bean id="tv" class="polymorphism.SamsungTV">
 	<property name="speaker"  ref ="apple"></property>
 	<property name="price"  value ="2700000"></property>
@@ -13,7 +13,7 @@
 	
 	<bean id ="sony" class ="polymorphism.SonySpeaker"></bean>
 	<bean id ="apple" class ="polymorphism.AppleSpeaker"></bean>  
-	-->
+	
 	
 	<bean class="com.spring.ioc.injection.CollectionBean" id="collectionBean">
 		<property name = "number">
